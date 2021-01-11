@@ -4,3 +4,4 @@
 
 [core]
     editor = nano -w
+    pager = cat
