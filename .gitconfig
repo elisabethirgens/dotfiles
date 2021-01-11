@@ -1,3 +1,6 @@
 [user]
     name = Elisabeth Irgens
     email = hello@elisabethirgens.com
+
+[core]
+    editor = nano -w
