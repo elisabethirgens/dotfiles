@@ -1,4 +1,5 @@
 {
     "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
     "workbench.colorTheme": "Yoncé"
 }
