@@ -1,5 +1,8 @@
 {
     "editor.fontSize": 14,
     "editor.minimap.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 135,
     "workbench.colorTheme": "Yoncé"
 }
