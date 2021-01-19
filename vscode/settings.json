@@ -1,5 +1,8 @@
 {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.scrollBeyondLastLine": false,
     "editor.wordWrap": "bounded",
