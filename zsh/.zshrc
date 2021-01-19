@@ -1,6 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Skip verification of permissions and ownership of directories
+# because Homebrew and ohmyzsh don't seem to agree atm
+ZSH_DISABLE_COMPFIX=true
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/katla/.oh-my-zsh"
 
