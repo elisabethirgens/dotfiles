@@ -1,4 +1,7 @@
 {
+    "files.associations": {
+        "*.njk": "html"
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
