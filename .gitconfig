@@ -4,3 +4,6 @@
 [core]
     editor = nano -w
     pager = cat
+
+[init]
+    defaultBranch = main
