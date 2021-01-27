@@ -12,6 +12,7 @@
     "editor.wordWrapColumn": 135,
     "workbench.colorTheme": "Yoncé",
     "workbench.editor.labelFormat": "short",
+    "workbench.editor.tabSizing": "shrink",
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20
 }
