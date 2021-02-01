@@ -10,6 +10,7 @@
     "editor.scrollBeyondLastLine": false,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 135,
+    "explorer.confirmDelete": false,
     "workbench.colorTheme": "Yoncé",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.tabSizing": "shrink",
