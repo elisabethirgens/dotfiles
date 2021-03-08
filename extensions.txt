@@ -1,0 +1,5 @@
+ban.spellright
+christopherstyles.html-entities
+esbenp.prettier-vscode
+minamarkham.yonce-theme
+techer.open-in-browser
