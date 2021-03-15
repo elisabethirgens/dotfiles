@@ -1,3 +1,6 @@
+# Set up nodenv in my shell
+eval "$(nodenv init -)"
+
 # Skip verification of permissions and ownership of directories
 # because Homebrew and ohmyzsh don't seem to agree atm
 ZSH_DISABLE_COMPFIX=true
