@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "*.njk": "html"
+        "*.njk": "html",
+        "*.svg": "html"
     },
     "files.insertFinalNewline": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
