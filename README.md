@@ -20,3 +20,9 @@ code --list-extensions >> extensions.txt
 ```
 
 Todo: decide on a workflow with some manual control for extensions. This will create a list that can be piped into xargs to run `code --install-extension`. A bit manual, but not sure I want auto syncing between machines? 🤔
+
+---
+
+## Improvements
+
+- Set up `.zshrc` so user name doesn't need to be hard coded
