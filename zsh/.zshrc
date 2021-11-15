@@ -33,3 +33,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+
+# Set PATH for the Google Cloud SDK
+if [ -f '/Users/hekla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/hekla/google-cloud-sdk/path.zsh.inc'; fi
+
+# Enable shell command completion for gcloud
+if [ -f '/Users/hekla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/hekla/google-cloud-sdk/completion.zsh.inc'; fi
