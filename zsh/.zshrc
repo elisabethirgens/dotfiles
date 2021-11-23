@@ -25,3 +25,7 @@ if [ -f '/Users/hekla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/hekla/goo
 
 # Enable shell command completion for gcloud
 if [ -f '/Users/hekla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/hekla/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Alias to tell git who I am, not globally but per repo
+alias gidp='git config user.email "hello@elisabethirgens.com" && git config user.name "Elisabeth Irgens"'
+alias gidw='echo remember to add but skip committing this one'
