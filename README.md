@@ -2,25 +2,34 @@
 
 Starting to git me some (version) control of my dotfiles and settings.
 
-## symlinks
-
-- [ ] todo: make a shell script of these 👇
+## Symlink files 🏹
 
 ```shell
+# Make symbolic links from files in this repo to home
 ln -s ~/proj/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/proj/dotfiles/.npmrc ~/.npmrc
 ln -s ~/proj/dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/proj/dotfiles/zsh/.zprofile ~/.zprofile
+```
+
+## Manage VS Code settings and extensions
+
+```shell
+# Symlink settings for VS Code
 ln -s ~/proj/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
-## Manage VS Code extensions
+While it is possible to sync settings for VS Code with an account, I didn’t want yet another account for that — and went with a manual approach of maintaining a list of potentially interesting extentions in this repo. Using these commands to export and import from one machine to another.
 
 ```shell
-code --list-extensions >> extensions.txt
+# Create a list of current extensions
+code --list-extensions >> vscode/extensions.txt
 ```
 
-Todo: decide on a workflow with some manual control for extensions. This will create a list that can be piped into xargs to run `code --install-extension`. A bit manual, but not sure I want auto syncing between machines? 🤔
+```shell
+# Pipe a list into xargs and install those
+cat vscode/extensions.txt | xargs -L 1 code --install-extension
+```
 
 ---
 
