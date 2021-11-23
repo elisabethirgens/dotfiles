@@ -1,5 +1,13 @@
 ban.spellright
 christopherstyles.html-entities
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
 esbenp.prettier-vscode
 minamarkham.yonce-theme
+ms-azuretools.vscode-docker
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
+ms-vsliveshare.vsliveshare-pack
+silvenon.mdx
 techer.open-in-browser
+tlent.jest-snapshot-language-support
