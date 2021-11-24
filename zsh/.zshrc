@@ -21,10 +21,10 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Set PATH for the Google Cloud SDK
-if [ -f '/Users/hekla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/hekla/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/katla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/path.zsh.inc'; fi
 
 # Enable shell command completion for gcloud
-if [ -f '/Users/hekla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/hekla/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/katla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/completion.zsh.inc'; fi
 
 # Alias to tell git who I am, not globally but per repo
 alias gidp='git config user.email "hello@elisabethirgens.com" && git config user.name "Elisabeth Irgens"'
