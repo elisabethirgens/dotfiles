@@ -36,4 +36,5 @@ cat vscode/extensions.txt | xargs -L 1 code --install-extension
 
 ## Improvements
 
-- Set up `.zshrc` so user name doesn't need to be hard coded
+-   Set up `.zshrc` so user name doesn't need to be hard coded
+-   Figure out how to have secret dotfiles too
