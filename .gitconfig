@@ -6,6 +6,9 @@
     pager = cat
     excludesFile = ~/.gitignore_global
 
+[commit]
+	template = ~/.gitmsg
+
 [init]
     defaultBranch = main
 

@@ -8,6 +8,7 @@ Starting to git me some (version) control of my dotfiles and settings.
 # Make symbolic links from files in this repo to home
 ln -s ~/proj/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/proj/dotfiles/.gitignore_global ~/.gitignore_global
+ln -s ~/proj/dotfiles/.gitmsg ~/.gitmsg
 ln -s ~/proj/dotfiles/.npmrc ~/.npmrc
 ln -s ~/proj/dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/proj/dotfiles/zsh/.zprofile ~/.zprofile
