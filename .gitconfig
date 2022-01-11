@@ -4,6 +4,7 @@
 [core]
     editor = nano -w
     pager = cat
+    excludesFile = ~/.gitignore_global
 
 [init]
     defaultBranch = main
