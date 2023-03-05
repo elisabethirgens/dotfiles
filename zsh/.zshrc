@@ -9,7 +9,7 @@ eval "$(rbenv init - zsh)"
 ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/katla/.oh-my-zsh"
+export ZSH=".oh-my-zsh"
 
 # Set name of the theme to load
 ZSH_THEME="muse"
