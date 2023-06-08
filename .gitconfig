@@ -1,8 +1,16 @@
 [user]
     useConfigOnly = true
+    signingkey = ~/.ssh/id_ed25519_for_github.pub
 
 [commit]
     template = ~/.gitmsg
+    gpgsign = true
+
+[gpg]
+    format = ssh
+
+[tag]
+    gpgsign = true
 
 [core]
     editor = nano -w
