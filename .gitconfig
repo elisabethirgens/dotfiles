@@ -1,13 +1,13 @@
 [user]
     useConfigOnly = true
 
+[commit]
+    template = ~/.gitmsg
+
 [core]
     editor = nano -w
     pager = cat
     excludesFile = ~/.gitignore_global
-
-[commit]
-	template = ~/.gitmsg
 
 [init]
     defaultBranch = main
