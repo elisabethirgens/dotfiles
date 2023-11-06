@@ -13,6 +13,7 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 135,
     "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Yoncé",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.tabSizing": "shrink",
