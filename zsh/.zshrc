@@ -26,6 +26,9 @@ if [ -f '/Users/katla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/katla/goo
 # Enable shell command completion for gcloud
 if [ -f '/Users/katla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/completion.zsh.inc'; fi
 
+# Path to my brew installed postgresql@16
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
 # Alias to tell git who I am, not globally but per repo
 alias gidp='git config user.email "hello@elisabethirgens.com" && git config user.name "Elisabeth Irgens"'
 alias gidw='echo remember to add but skip committing this one'
