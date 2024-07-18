@@ -10,6 +10,7 @@ ln -s ~/proj/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/proj/dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/proj/dotfiles/.gitmsg ~/.gitmsg
 ln -s ~/proj/dotfiles/.npmrc ~/.npmrc
+ln -s ~/proj/dotfiles/.tool-versions ~/.tool-versions
 ln -s ~/proj/dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/proj/dotfiles/zsh/.zprofile ~/.zprofile
 ```

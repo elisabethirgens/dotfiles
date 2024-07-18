@@ -11,11 +11,10 @@ export ZSH=".oh-my-zsh"
 # Set name of the theme to load
 ZSH_THEME="muse"
 
-# Which plugins would you like to load?
-plugins=(git)
+# Which ohmyzsh plugins should we load?
+plugins=(git asdf)
 
 source $ZSH/oh-my-zsh.sh
-
 
 # Set PATH for the Google Cloud SDK
 if [ -f '/Users/katla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/path.zsh.inc'; fi
