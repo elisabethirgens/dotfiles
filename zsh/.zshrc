@@ -1,6 +1,3 @@
-# Set up nodenv in my shell
-eval "$(nodenv init -)"
-
 # Set up rbenv to load automatically
 eval "$(rbenv init - zsh)"
 
