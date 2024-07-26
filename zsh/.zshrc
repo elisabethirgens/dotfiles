@@ -16,8 +16,10 @@ plugins=(git asdf)
 
 source $ZSH/oh-my-zsh.sh
 
-# Set JAVA_HOME
-. ~/.asdf/plugins/java/set-java-home.zsh
+# Set JAVA_HOME (if existing asdf plugin java)
+if [ -e ~/.asdf/plugins/java/ ]; then
+    . ~/.asdf/plugins/java/set-java-home.zsh
+fi
 
 # Set PATH for the Google Cloud SDK
 if [ -f '/Users/katla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/path.zsh.inc'; fi
