@@ -21,11 +21,11 @@ if [ -e ~/.asdf/plugins/java/ ]; then
     . ~/.asdf/plugins/java/set-java-home.zsh
 fi
 
-# Set PATH for the Google Cloud SDK
-if [ -f '/Users/katla/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/path.zsh.inc'; fi
-
-# Enable shell command completion for gcloud
-if [ -f '/Users/katla/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/katla/google-cloud-sdk/completion.zsh.inc'; fi
+# Set PATH for Google Cloud SDK and enable command completion for gcloud
+if [ -e ~/google-cloud-sdk/ ]; then
+    . ~/google-cloud-sdk/path.zsh.inc
+    . ~/google-cloud-sdk/completion.zsh.inc
+fi
 
 # Path to my brew installed postgresql@16
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
