@@ -1,1 +1,7 @@
 .DS_Store
+
+# Editor preferences are personal, I dont want to enforce my preferences
+# on other developers. This sets a default where git will globally ignore
+# any and all setting files that my editors generate
+.vscode/settings.json
+.idea
