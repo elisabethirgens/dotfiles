@@ -12,14 +12,15 @@ export ZSH=".oh-my-zsh"
 ZSH_THEME="muse"
 
 # Which ohmyzsh plugins should we load?
-plugins=(git asdf)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Set JAVA_HOME (if existing asdf plugin java)
-if [ -e ~/.asdf/plugins/java/ ]; then
-    . ~/.asdf/plugins/java/set-java-home.zsh
-fi
+# Activate mise
+eval "$(~/.local/bin/mise activate zsh)"
+
+# Tell mise to find config directory in my dotfiles repo (instead of ~/.config/mise)
+export MISE_CONFIG_DIR="$HOME/proj/dotfiles/mise"
 
 # Set PATH for Google Cloud SDK and enable command completion for gcloud
 if [ -e ~/google-cloud-sdk/ ]; then

@@ -1,0 +1,5 @@
+# mise is a polyglot tool version manager
+
+[tools]
+node = "22"
+java = "temurin-21"
